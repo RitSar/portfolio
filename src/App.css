@@ -19,21 +19,12 @@
   min-height: calc(100vh - 80px);
 }
 .aboutPage > .hero-container {
-  background: url("/images/sunset.jpg") center center/cover no-repeat;
+  background: url("/images/img-about.jpg") center center/cover no-repeat;
 }
 .bodyContainer {
   background-color: #0f171b;
   color: #fff;
   margin: 0;
-}
-
-.sign-up {
-  background-image: url("/images/img-8.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
 }
 
 ::-webkit-scrollbar {
