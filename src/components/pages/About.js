@@ -2,10 +2,13 @@ import React from "react";
 import "../../App.css";
 import Footer from "../Footer";
 import { Button } from "../Button";
+import Loading from "../Loading";
 
 export default function Products() {
   return (
     <div className="aboutPage">
+      <Loading />
+
       <div className="hero-container">
         <div className="hero-text">
           <h1>Hello again!</h1>
