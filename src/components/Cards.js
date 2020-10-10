@@ -39,7 +39,7 @@ function Cards() {
           src="images/portfolio.jpg"
           title="This portfolio"
           web="none"
-          github="code"
+          github="https://github.com/RitSar/portfolio"
           text="My portfolio is a front-end project developed with react and hosted on github pages. The contact form is connected via webhooks and messages are stored in a spreadsheet."
         />
         <CardItem
