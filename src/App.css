@@ -19,7 +19,8 @@
   min-height: calc(100vh - 80px);
 }
 .aboutPage > .hero-container {
-  background: url("images/img-about.jpg") center center/cover no-repeat;
+  background: url(" + require("/images/img-about.jpg") + ") center center/cover
+    no-repeat;
 }
 .bodyContainer {
   background-color: #0f171b;
