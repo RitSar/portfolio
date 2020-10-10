@@ -72,7 +72,7 @@ export default function CardItem(props) {
               alt="Project"
               height="170"
               image={props.src}
-              title="Project image"
+              title={props.title}
             />
             <CardContent>
               <Typography gutterBottom variant="h6" component="h3">
