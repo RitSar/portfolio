@@ -1,0 +1,8 @@
+.item {
+  padding: 5px 10px;
+  background-color: rgb(197, 197, 197);
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  cursor: context-menu;
+  border-radius: 3px;
+}

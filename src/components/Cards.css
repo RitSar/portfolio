@@ -1,0 +1,29 @@
+.cards {
+  padding: 4rem 2rem 0 2rem;
+  background-color: #0f171b;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+}
+
+.marg {
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.cards__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+}
+.cardBox {
+  margin: 20px 20px;
+}
+a {
+  text-decoration: none;
+  color: cyan;
+}

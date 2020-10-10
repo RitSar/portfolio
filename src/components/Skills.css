@@ -1,0 +1,23 @@
+.skillWrapper {
+  background-color: #0f171b;
+  color: #fff;
+  margin-top: 30px;
+}
+.skillContainer {
+  padding-bottom: 4rem;
+  text-align: center;
+  max-width: 80%;
+  margin: 15px auto;
+}
+.heading {
+  padding: 10px;
+  border-bottom: 1px solid grey;
+  color: grey;
+}
+.skillItems {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: 0 auto;
+}
