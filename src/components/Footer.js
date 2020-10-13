@@ -59,50 +59,58 @@ function Footer() {
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="social-icons">
-            <Link
-              className="social-icon-link facebook"
-              to="/"
+            <a
+              className="social-icon-link"
+              href="mailto:sarkarrittik8@gmail.com"
               target="_blank"
-              aria-label="Facebook"
+              rel="noopener noreferrer"
+              aria-label="Mail"
             >
-              <i className="fab fa-facebook-f" />
-            </Link>
-            <Link
-              className="social-icon-link instagram"
-              to="/"
+              <i className="fa fa-envelope" aria-hidden="true"></i>
+            </a>
+            <a
+              className="social-icon-link "
+              href=" https://wa.me/918119919103"
               target="_blank"
-              aria-label="Instagram"
+              rel="noopener noreferrer"
+              aria-label="Whatsapp"
             >
-              <i className="fab fa-instagram" />
-            </Link>
-            <Link
-              className="social-icon-link youtube"
-              to="/"
+              <i className="fab fa-whatsapp" aria-hidden="true"></i>
+            </a>
+            <a
+              className="social-icon-link"
+              href=" https://github.com/RitSar"
               target="_blank"
-              aria-label="Youtube"
+              rel="noopener noreferrer"
+              aria-label="Github"
             >
-              <i className="fab fa-youtube" />
-            </Link>
-            <Link
-              className="social-icon-link twitter"
-              to="/"
+              <i className="fab fa-github" aria-hidden="true"></i>
+            </a>
+            <a
+              className="social-icon-link"
+              href=" https://www.linkedin.com/in/rittik-sarkar/"
               target="_blank"
-              aria-label="Twitter"
+              rel="noopener noreferrer"
+              aria-label="Linkedin"
             >
-              <i className="fab fa-twitter" />
-            </Link>
-            <Link
-              className="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="LinkedIn"
-            >
-              <i className="fab fa-linkedin" />
-            </Link>
+              <i className="fab fa-linkedin" aria-hidden="true"></i>
+            </a>
           </div>
         </div>
       </section>
-      <small>Made by Rittik Sarkar with React</small>
+      <p className="fiverr">
+        Hire me on{" "}
+        <a
+          href="https://www.fiverr.com/share/Eraoj7"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Linkedin"
+        >
+          fiverr
+        </a>{" "}
+      </p>
+
+      <small>Made with React by Rittik Sarkar </small>
     </div>
   );
 }
