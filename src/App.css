@@ -134,10 +134,7 @@
 .contactPage > .footer-container {
   min-height: calc(100vh - 80px);
 }
-.aboutPage > .hero-container {
-  background: url("https://i.postimg.cc/MTQnKp7K/img-about.jpg") center
-    center/cover no-repeat;
-}
+
 .bodyContainer {
   background-color: #0f171b;
   color: #fff;

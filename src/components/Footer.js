@@ -1,19 +1,12 @@
 import React, { useState } from "react";
 import "./Footer.css";
 import { Button } from "./Button";
-import { Link } from "react-router-dom";
 
 function Footer() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const submit = (e) => {
-    e.preventDefault();
-    fetch(`https://hooks.zapier.com/hooks/catch/8682847/ogivnfu/`, {
-      method: "POST",
-      body: JSON.stringify({ email, message }),
-    })
-      .then(() => alert("Thank you, your message has been saved successfully."))
-      .catch(() => alert("There was an error, please try again"));
+    alert("Thank you. Your message has been saved successfully.");
   };
   return (
     <div className="footer-container">
@@ -21,7 +14,11 @@ function Footer() {
         <p className="footer-subscription-heading">Contact Me</p>
         <p className="footer-subscription-text">Simply leave a message here;</p>
         <div className="input-areas">
-          <form onSubmit={submit}>
+          <form
+            method="POST"
+            action="https://ritsar-server.herokuapp.com/submit-form"
+            onSubmit={submit}
+          >
             <label htmlFor="email">
               <input
                 className="footer-input"
@@ -32,6 +29,7 @@ function Footer() {
                 onChange={(e) => setEmail(e.target.value)}
               />
             </label>
+            <input type="hidden" name="page" value={window.location.href} />
             <label htmlFor="message">
               <textarea
                 className="footer-input message"

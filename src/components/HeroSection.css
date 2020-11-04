@@ -1,6 +1,5 @@
 .hero-container {
-  background: url("https://i.postimg.cc/zXMFxVx0/img-home.jpg") center
-    center/cover no-repeat;
+  background-color: #0f171b;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -16,13 +15,12 @@
   font-size: 40px;
 }
 .hero-text {
-  background-color: rgba(0, 0, 0, 0.3);
-  text-align: center;
-  padding: 10px 30px 30px 30px;
-  border-radius: 20px;
+  text-align: left;
+  padding: 20px;
+  width: 70vw;
 }
 .hero-text > h2 {
-  color: lightcyan;
+  color: cyan;
   font-size: 50px;
 }
 
@@ -48,14 +46,11 @@
   margin-left: 4px;
 }
 
-/* @media screen and (max-width: 960px) {
-  .hero-container > h1 {
-    font-size: 70px;
-  }
-} */
-
 @media screen and (max-width: 768px) {
-  hero-text > h1 {
+  .hero-text {
+    width: 100%;
+  }
+  .hero-text > h1 {
     font-size: 25px;
   }
   .hero-text > h2 {
@@ -63,7 +58,6 @@
   }
   .hero-text > p {
     font-size: 15px;
-    max-width: 100%;
   }
 
   .btn-mobile {

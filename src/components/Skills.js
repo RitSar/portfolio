@@ -28,6 +28,8 @@ export default function skills() {
           <SkillItem name="Webkit" />
           <SkillItem name="OAuth" />
           <SkillItem name="Material-UI" />
+          <SkillItem name="Apollo" />
+          <SkillItem name="GraphQL" />
           <SkillItem name="Web Authentication and Security" />
         </div>
 
@@ -41,6 +43,7 @@ export default function skills() {
           <SkillItem name="OpenGL" />
           <SkillItem name="Data Structures" />
           <SkillItem name="Algorithms" />
+          <SkillItem name="Object Oriented Programming" />
           <SkillItem name="C#" />
         </div>
 
@@ -54,6 +57,7 @@ export default function skills() {
           <SkillItem name="Inkscape" />
           <SkillItem name="Git/Github" />
           <SkillItem name="Bash" />
+          <SkillItem name="Figma" />
           <SkillItem name="Adobe XD" />
           <SkillItem name="Adobe Photoshop" />
         </div>
